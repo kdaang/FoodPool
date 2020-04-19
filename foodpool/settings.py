@@ -57,8 +57,6 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'foodpool.urls'
 
-AUTH_USER_MODEL = 'authentication.User'
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -126,3 +124,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+AUTH_USER_MODEL = 'authentication.User'
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'foodpool.v1.authentication.backends.JWTAuthentication',
+    )
+}
