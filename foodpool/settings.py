@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'phonenumber_field',
 
     'foodpool.v1.authentication',
-    'foodpool.v1.core'
+    'foodpool.v1.core',
+    'foodpool.v1.users'
 ]
 
 MIDDLEWARE = [

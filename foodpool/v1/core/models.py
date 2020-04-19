@@ -1,3 +1,4 @@
+from django.core.validators import RegexValidator
 from django.db import models
 
 
@@ -49,6 +50,11 @@ class CanadaAddress:
         (NU, 'Nunavut')
     ]
 
+    CAN = 'CAN'
+    countries = [
+        (CAN, 'Canada')
+    ]
+
 
 class CanadaAddressModel(models.Model):
     address_1 = models.CharField(max_length=254)
@@ -56,8 +62,9 @@ class CanadaAddressModel(models.Model):
 
     city = models.CharField(max_length=254)
     province = models.CharField(max_length=254, choices=CanadaAddress.provinces)
-    postal_code = models.CharField(max_length=6)
-    country = models.CharField(max_length=6, default="CANADA")
+    postal_code = models.CharField(max_length=6, validators=[RegexValidator(regex=r'[A-Za-z]\d[A-Za-z]\d[A-Za-z]\d')])
+    country = models.CharField(max_length=6, default=CanadaAddress.CAN,
+                               choices=CanadaAddress.countries)
 
     class Meta:
         abstract = True
