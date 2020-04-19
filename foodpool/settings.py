@@ -40,8 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'phonenumber_field',
 
-    'v1.users',
-    'v1.core'
+    'foodpool.v1.authentication',
+    'foodpool.v1.core'
 ]
 
 MIDDLEWARE = [
@@ -56,7 +56,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'foodpool.urls'
 
-AUTH_USER_MODEL = 'users.User'
+AUTH_USER_MODEL = 'authentication.User'
 
 TEMPLATES = [
     {
