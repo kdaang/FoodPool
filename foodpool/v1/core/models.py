@@ -36,17 +36,18 @@ class Calendar():
 
 class AvailabilityModel(models.Model):
     weekday = models.IntegerField(choices=Calendar.WEEKDAYS)
-    from_hour = models.TimeField()
-    to_hour = models.TimeField()
+    startHour = models.IntegerField()
+    startMinute = models.IntegerField()
+    endHour = models.IntegerField()
+    endMinute = models.IntegerField()
 
     class Meta:
         abstract = True
-        ordering = ('weekday', 'from_hour')
-        unique_together = ('weekday', 'from_hour', 'to_hour')
+        ordering = ('weekday', 'startHour', 'startMinute')
 
     def __unicode__(self):
         return u'%s: %s - %s' % (self.get_weekday_display(),
-                                 self.from_hour, self.to_hour)
+                                 self.startHour, self.endHour)
 
 
 ###
@@ -95,9 +96,12 @@ class CanadaAddressModel(models.Model):
     address_1 = models.CharField(max_length=254)
     address_2 = models.CharField(max_length=254)
 
+    latitude = models.FloatField()
+    longitude = models.FloatField()
+
     city = models.CharField(max_length=254)
     province = models.CharField(max_length=254, choices=CanadaAddress.provinces)
-    postal_code = models.CharField(max_length=6, validators=[RegexValidator(regex=r'[A-Za-z]\d[A-Za-z]\d[A-Za-z]\d')])
+    postal_code = models.CharField(max_length=7, validators=[RegexValidator(regex=r'[A-Za-z]\d[A-Za-z]\s\d[A-Za-z]\d')])
     country = models.CharField(max_length=6, default=CanadaAddress.CAN,
                                choices=CanadaAddress.countries)
 
