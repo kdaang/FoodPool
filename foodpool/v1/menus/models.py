@@ -11,26 +11,28 @@ class MenuManager(models.Manager):
         return menu
 
 
-class MenuGroup(TimestampedModel):
+class MenuGroups(TimestampedModel):
     name = models.TextField()
 
 
-class Menu(AvailabilityModel, TimestampedModel):
+class MenuItems(AvailabilityModel, TimestampedModel):
     objects = MenuManager()
 
     dishName = models.TextField()
     description = models.TextField()
-    group = models.ForeignKey(MenuGroup, on_delete=models.PROTECT)
+    group = models.ForeignKey(MenuGroups, on_delete=models.PROTECT)
     calories = models.IntegerField()
-    price = models.DecimalField(max_digits=6, decimal_places=2)
+    price = models.IntegerField()
+    available = models.BooleanField(default=True)
 
 
 class MenuOptions(TimestampedModel):
-    menu = models.ForeignKey(Menu, on_delete=models.CASCADE)
+    menu = models.ForeignKey(MenuItems, on_delete=models.CASCADE)
     name = models.TextField()
     description = models.TextField()
     minOptions = models.IntegerField()
     maxOptions = models.IntegerField()
+    available = models.BooleanField(default=True)
 
     class Meta(TimestampedModel.Meta):
         constraints = [
@@ -42,25 +44,27 @@ class MenuOptions(TimestampedModel):
 class MenuOptionChoices(TimestampedModel):
     menuOptions = models.ForeignKey(MenuOptions, on_delete=models.CASCADE)
     choice = models.TextField()
-    price = models.DecimalField(max_digits=6, decimal_places=2)
+    price = models.IntegerField()
     calories = models.IntegerField()
-    minOptions = models.IntegerField()
-    maxOptions = models.IntegerField()
+    minChoices = models.IntegerField()
+    maxChoices = models.IntegerField()
+    available = models.BooleanField(default=True)
 
     class Meta(TimestampedModel.Meta):
         constraints = [
-            models.CheckConstraint(check=models.Q(minOptions__lte=models.F("maxOptions")),
-                                   name="optionConstraint")
+            models.CheckConstraint(check=models.Q(minChoices__lte=models.F("maxChoices")),
+                                   name="choiceConstraint")
         ]
 
 
 class Restaurant(TimestampedModel):
     name = models.TextField()
     description = models.TextField()
-    menu = models.ForeignKey(Menu, on_delete=models.PROTECT)
+    menu = models.ForeignKey(MenuItems, on_delete=models.PROTECT)
 
 
 class RestaurantLocation(AvailabilityModel, CanadaAddressModel, TimestampedModel):
     restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE)
+    isOpen = models.BooleanField(default=False)
 
 
