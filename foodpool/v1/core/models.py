@@ -2,6 +2,9 @@ from django.core.validators import RegexValidator
 from django.db import models
 
 
+###
+# TIMES
+###
 class TimestampedModel(models.Model):
     # A timestamp representing when this object was created.
     created_at = models.DateTimeField(auto_now_add=True)
@@ -17,6 +20,38 @@ class TimestampedModel(models.Model):
         # per-model basis as needed, but reverse-chronological is a good
         # default ordering for most models.
         ordering = ['-created_at', '-updated_at']
+
+
+class Calendar():
+    WEEKDAYS = [
+        (1, "Monday"),
+        (2, "Tuesday"),
+        (3, "Wednesday"),
+        (4, "Thursday"),
+        (5, "Friday"),
+        (6, "Saturday"),
+        (7, "Sunday")
+    ]
+
+
+class AvailabilityModel(models.Model):
+    weekday = models.IntegerField(choices=Calendar.WEEKDAYS)
+    from_hour = models.TimeField()
+    to_hour = models.TimeField()
+
+    class Meta:
+        abstract = True
+        ordering = ('weekday', 'from_hour')
+        unique_together = ('weekday', 'from_hour', 'to_hour')
+
+    def __unicode__(self):
+        return u'%s: %s - %s' % (self.get_weekday_display(),
+                                 self.from_hour, self.to_hour)
+
+
+###
+# ADDRESSES
+###
 
 
 class CanadaAddress:

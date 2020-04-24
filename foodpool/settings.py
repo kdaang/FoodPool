@@ -42,7 +42,8 @@ INSTALLED_APPS = [
 
     'foodpool.v1.authentication',
     'foodpool.v1.core',
-    'foodpool.v1.users'
+    'foodpool.v1.users',
+    'foodpool.v1.menus'
 ]
 
 MIDDLEWARE = [
