@@ -60,7 +60,7 @@ class Command(BaseCommand):
             try:
                 item, created = MenuItems.objects.get_or_create(
                     name=menu_item.get("name", None),
-                    description=menu_item.get("description", None),
+                    description=menu_item.get("description", ""),
                     group=menu_group,
                     price=menu_item.get("centsPrice", None)
                 )
@@ -71,38 +71,37 @@ class Command(BaseCommand):
             self.import_menu_options(menu_item.get("options", None), item)
 
     @transaction.atomic
-    def import_menu_data(self, menu):
+    def import_menu_data(self, menu, file_name):
         data_folder = os.path.join(BASE_DIR, 'foodpool', 'resources/scrapped_menu_data')
-        for data_file in os.listdir(data_folder):
-            with open(os.path.join(data_folder, data_file), encoding='utf-8') as data_file:
-                data = json.loads(data_file.read())
-                menu_groups = data.get("menuGroups", None)
-                for i in range(1, len(menu_groups)):
-                    menu_group = menu_groups[i]
+        with open(os.path.join(data_folder, file_name), encoding='utf-8') as data_file:
+            data = json.loads(data_file.read())
+            menu_groups = data.get("menuGroups", None)
+            for i in range(1, len(menu_groups)):
+                menu_group = menu_groups[i]
 
-                    # MenuGroups model
-                    try:
-                        group, created = MenuGroups.objects.get_or_create(
-                            name=menu_group.get("name", None),
-                            menu=menu
-                        )
+                # MenuGroups model
+                try:
+                    group, created = MenuGroups.objects.get_or_create(
+                        name=menu_group.get("name", None),
+                        menu=menu
+                    )
 
-                        time_constraint = menu_group.get("timeConstraint", None)
-                        if time_constraint:
-                            for weekday in Calendar.WEEKDAYS:
-                                availability, created = MenuGroupAvailability.objects.get_or_create(
-                                    group=group,
-                                    weekday=weekday[0],
-                                    startHour=time_constraint.get("startHour", None),
-                                    startMinute=time_constraint.get("startMinute", None),
-                                    endHour=time_constraint.get("endHour", None),
-                                    endMinute=time_constraint.get("endMinute", None)
-                                )
+                    time_constraint = menu_group.get("timeConstraint", None)
+                    if time_constraint:
+                        for weekday in Calendar.WEEKDAYS:
+                            availability, created = MenuGroupAvailability.objects.get_or_create(
+                                group=group,
+                                weekday=weekday[0],
+                                startHour=time_constraint.get("startHour", None),
+                                startMinute=time_constraint.get("startMinute", None),
+                                endHour=time_constraint.get("endHour", None),
+                                endMinute=time_constraint.get("endMinute", None)
+                            )
 
-                    except Exception as ex:
-                        self.handle_exception(ex, "MenuGroups")
+                except Exception as ex:
+                    self.handle_exception(ex, "MenuGroups")
 
-                    self.import_menu_item(menu_group.get("menuItems", None), group)
+                self.import_menu_item(menu_group.get("menuItems", None), group)
 
     @transaction.atomic
     def import_restaurant_availability(self, hours, restaurant_location):
@@ -155,8 +154,8 @@ class Command(BaseCommand):
     @transaction.atomic
     def import_restaurant_menu(self):
         data_folder = os.path.join(BASE_DIR, 'foodpool', 'resources/scrapped_restaurant_data')
-        for data_file in os.listdir(data_folder):
-            with open(os.path.join(data_folder, data_file), encoding='utf-8') as data_file:
+        for file_name in os.listdir(data_folder):
+            with open(os.path.join(data_folder, file_name), encoding='utf-8') as data_file:
                 data = json.loads(data_file.read())
 
                 # Menu Model
@@ -180,11 +179,11 @@ class Command(BaseCommand):
                     self.handle_exception(ex, "Restaurant")
 
                 self.import_restaurant_location(data.get("location", None), data.get("hours", None),  restaurant)
-                self.import_menu_data(menu)
 
+                self.import_menu_data(menu, "_".join(file_name.split("_")[:-1]) + "_menu.json")
 
     def handle(self, *args, **options):
         """
-                Call the function to import data
-                """
+        Call the function to import data
+        """
         self.import_restaurant_menu()

@@ -1,0 +1,1289 @@
+{
+  "id": "45ba7da6-ac97-442f-b3ce-328cd41ec3c0",
+  "name": "Boba Boy (Midland Ave.)",
+  "shortName": "Boba Boy",
+  "location": {
+    "latitude": 43.8053059,
+    "longitude": -79.2872672,
+    "address": "3250 Midland Avenue, Scarborough, ON M1V 0C7, Canada",
+    "city": "Toronto",
+    "province": "ON",
+    "country": "CAN",
+    "postalCode": "M1V"
+  },
+  "isDelco": true,
+  "online": true,
+  "cleanUrl": "boba-boy",
+  "skipScore": 82,
+  "cuisines": [
+    "Ice Cream",
+    "Gauffres",
+    "Waffles",
+    "Café/Thé",
+    "Ice Cream & Frozen Treats",
+    "Smoothies",
+    "Santé",
+    "Desserts",
+    "Japanese",
+    "Asiatique",
+    "Dessert",
+    "Asian",
+    "Japonais",
+    "Fait-maison",
+    "Crèmerie",
+    "Ben & Jerry's",
+    "Crème glacée",
+    "Coffee/Tea",
+    "Healthy",
+    "Homemade",
+    "International"
+  ],
+  "imageUrls": {
+    "menuImageListUrl": "https://static.skipthedishes.com/boba-boy-menu-image-list-small-1526678156071.jpg",
+    "menuImageLargeUrl": "https://static.skipthedishes.com/boba-boy-menu-image-large-1526678154995.jpg",
+    "menuImageMediumUrl": "https://static.skipthedishes.com/boba-boy-menu-image-medium-1526678155418.jpg",
+    "menuImageSmallUrl": "https://static.skipthedishes.com/boba-boy-menu-image-small-1526678155713.jpg",
+    "listImageWebUrl": "https://restaurants-static.skipthedishes.com/images/resized/web-51359a6953cf48cdf23a.png",
+    "listImageMobileUrl": "https://restaurants-static.skipthedishes.com/images/resized/mobile-51359a6953cf48cdf23a.png"
+  },
+  "acceptsPickup": true,
+  "foodPrepMinutes": 40,
+  "timeZone": "America/Toronto",
+  "acceptedPaymentTypes": {
+    "acceptsCreditCard": true,
+    "acceptsCash": false,
+    "acceptsInteracOnline": true,
+    "acceptsCorporate": true
+  },
+  "contactInfo": {
+    "email": "info@bobaboy.ca",
+    "phoneNumber": "(416) 792-8022"
+  },
+  "currency": {
+    "currencyCode": "CAD"
+  },
+  "menuItemSpecialInstructions": true,
+  "deliveryHours": {
+    "sunday": [
+      {
+        "start": {
+          "hour": 0,
+          "minute": 0
+        },
+        "end": {
+          "hour": 2,
+          "minute": 0
+        }
+      },
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 23,
+          "minute": 59
+        }
+      }
+    ],
+    "monday": [
+      {
+        "start": {
+          "hour": 0,
+          "minute": 0
+        },
+        "end": {
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      }
+    ],
+    "tuesday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      }
+    ],
+    "wednesday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      }
+    ],
+    "thursday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      },
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      }
+    ],
+    "friday": [
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 23,
+          "minute": 59
+        }
+      }
+    ],
+    "saturday": [
+      {
+        "start": {
+          "hour": 0,
+          "minute": 0
+        },
+        "end": {
+          "hour": 2,
+          "minute": 0
+        }
+      },
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 23,
+          "minute": 59
+        }
+      }
+    ]
+  },
+  "hours": {
+    "sunday": [
+      {
+        "start": {
+          "hour": 0,
+          "minute": 0
+        },
+        "end": {
+          "hour": 2,
+          "minute": 0
+        }
+      },
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 23,
+          "minute": 59
+        }
+      }
+    ],
+    "monday": [
+      {
+        "start": {
+          "hour": 0,
+          "minute": 0
+        },
+        "end": {
+          "hour": 1,
+          "minute": 0
+        }
+      },
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      }
+    ],
+    "tuesday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      }
+    ],
+    "wednesday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      }
+    ],
+    "thursday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      },
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        }
+      }
+    ],
+    "friday": [
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 23,
+          "minute": 59
+        }
+      }
+    ],
+    "saturday": [
+      {
+        "start": {
+          "hour": 0,
+          "minute": 0
+        },
+        "end": {
+          "hour": 2,
+          "minute": 0
+        }
+      },
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 23,
+          "minute": 59
+        }
+      }
+    ]
+  },
+  "displayDeliveryHours": {
+    "sunday": [
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 1,
+          "minute": 0
+        },
+        "pastMidnight": true
+      }
+    ],
+    "monday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      }
+    ],
+    "tuesday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      }
+    ],
+    "wednesday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      }
+    ],
+    "thursday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      },
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      }
+    ],
+    "friday": [
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 2,
+          "minute": 0
+        },
+        "pastMidnight": true
+      }
+    ],
+    "saturday": [
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 2,
+          "minute": 0
+        },
+        "pastMidnight": true
+      }
+    ]
+  },
+  "displayPickupHours": {
+    "sunday": [
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 1,
+          "minute": 0
+        },
+        "pastMidnight": true
+      }
+    ],
+    "monday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      }
+    ],
+    "tuesday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      }
+    ],
+    "wednesday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      }
+    ],
+    "thursday": [
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      },
+      {
+        "start": {
+          "hour": 12,
+          "minute": 0
+        },
+        "end": {
+          "hour": 23,
+          "minute": 45
+        },
+        "pastMidnight": false
+      }
+    ],
+    "friday": [
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 2,
+          "minute": 0
+        },
+        "pastMidnight": true
+      }
+    ],
+    "saturday": [
+      {
+        "start": {
+          "hour": 11,
+          "minute": 30
+        },
+        "end": {
+          "hour": 2,
+          "minute": 0
+        },
+        "pastMidnight": true
+      }
+    ]
+  },
+  "estimatedTime": 40,
+  "minEstimatedTime": 40,
+  "maxEstimatedTime": 40,
+  "menu": {
+    "menuGroups": [
+      {
+        "id": "ALLERGY_GROUP",
+        "name": "Allergies & Intolerances",
+        "description": "SkipTheDishes is not involved with food preparation. If you have a food allergy or intolerance (or someone you’re ordering for has), phone the restaurant at (416) 792-8022 before placing your order.",
+        "menuItems": []
+      },
+      {
+        "id": "5567918f-90d0-493b-9c25-a7bbb8f66a99",
+        "name": "Community Support",
+        "description": "Local restaurants are the heart, soul, and stomach of our communities. In this challenging time, you can support your favourite hometown heroes with a restaurant tip. 100% of this added contribution will go to your selected restaurant. Plus, for every $1 you tip to restaurants, Skip will donate $1 to Food Banks Canada.",
+        "menuItems": [
+          {
+            "id": "1bac7c9a-6949-4328-8f8a-26f7ecf82114",
+            "name": "Contribute Now",
+            "centsPrice": 0,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "d969b7e5-a00d-4191-a73c-1220c6d2e25a",
+        "name": "Place Settings",
+        "description": "Please list the number of place settings that you'd like, along with your order.",
+        "menuItems": [
+          {
+            "id": "3badc917-db79-4bcf-9400-5eb590b1c934",
+            "name": "Number of Plastic Cutlery",
+            "centsPrice": 0,
+            "description": "How many people will be eating from this order?",
+            "available": true,
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "6bc91b44-3d0c-42b2-8f56-d64b009e0dff",
+        "name": "Signature Milk Tea",
+        "description": "",
+        "menuItems": [
+          {
+            "id": "4b8fcf73-925a-4e94-bcf8-0de8a3f5f3ea",
+            "name": "Deluxe Milk Tea",
+            "centsPrice": 479,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/4b8fcf73-925a-4e94-bcf8-0de8a3f5f3ea-item-image-1536171537133.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-5417b4bf0d912a8b54be.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-5417b4bf0d912a8b54be.jpg",
+            "isPrimary": true
+          },
+          {
+            "id": "342b8e79-870a-47ea-bafe-8dde110b4d7c",
+            "name": "Muscovado Creamy Black Whirl",
+            "centsPrice": 500,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/342b8e79-870a-47ea-bafe-8dde110b4d7c-item-image-1536172167386.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-54f123d76c4cf6978491.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-54f123d76c4cf6978491.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "79beb693-99a3-45a9-b6f1-4436f8113d97",
+            "name": "Original Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/79beb693-99a3-45a9-b6f1-4436f8113d97-item-image-1536172259500.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-faa8a21658d1482f507a.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-faa8a21658d1482f507a.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "801f9b1a-027a-4b1d-a4b8-9db2c535ab40",
+            "name": "Taro Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/801f9b1a-027a-4b1d-a4b8-9db2c535ab40-item-image-1536172575950.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-cec5344c3208467fa830.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-cec5344c3208467fa830.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "12b85a02-5ad7-4627-a869-fe551c4787b1",
+            "name": "Coconut Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/12b85a02-5ad7-4627-a869-fe551c4787b1-item-image-1536171478651.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-5c2a99cd95a3a62c726b.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-5c2a99cd95a3a62c726b.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "33b751a2-1a29-49f3-ba1b-c4afee6af953",
+            "name": "Honeydew Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/33b751a2-1a29-49f3-ba1b-c4afee6af953-item-image-1536171688523.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-ecc8989ce6294bc64c0a.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-ecc8989ce6294bc64c0a.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "d4c00853-e089-4fe7-b08b-f7584b9943ba",
+            "name": "Earl Grey Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "b22629db-41eb-4e16-bf32-1f165c1bf59a",
+            "name": "Coco Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/b22629db-41eb-4e16-bf32-1f165c1bf59a-item-image-1536171445575.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-ebed668d73da36e93cf0.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-ebed668d73da36e93cf0.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "1236619e-d965-4c9c-94fb-d026f5603563",
+            "name": "Matcha Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/1236619e-d965-4c9c-94fb-d026f5603563-item-image-1536172073265.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-9fcefdb791981235c5fe.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-9fcefdb791981235c5fe.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "9845297c-5ddd-4cc8-9a0b-3c82d936bac2",
+            "name": "Red Bean Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/9845297c-5ddd-4cc8-9a0b-3c82d936bac2-item-image-1536172355833.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-dc9752f02d3b958b687d.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-dc9752f02d3b958b687d.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "80cd16a1-d80e-45db-86b4-1d95358eb280",
+            "name": "Strawberry Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "a2251a05-0912-470c-a7d1-0a5eb237773d",
+            "name": "Mango Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "a3cb8fef-6177-44d8-9eb1-4214d1418d05",
+            "name": "Watermelon Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "70b96b2d-f7cf-470b-bd40-95ce7115465c",
+            "name": "Jasmine Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "6e07a854-c107-441d-a0f4-a057ae25ec64",
+            "name": "Winter Melon Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "a138869e-d9e3-49df-8db7-293f203c4704",
+            "name": "Taro Coconut Milk Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          }
+        ],
+        "timeConstraint": {
+          "startHour": 0,
+          "startMinute": 0,
+          "endHour": 23,
+          "endMinute": 59
+        }
+      },
+      {
+        "id": "fa786e5b-4dca-41e7-82ec-88f0839e3bec",
+        "name": "Specialty Slush and Smoothies",
+        "description": "",
+        "menuItems": [
+          {
+            "id": "9963f65d-1b1d-4720-afdc-99373605c248",
+            "name": "Taro Smoothie",
+            "centsPrice": 529,
+            "description": "(430 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/9963f65d-1b1d-4720-afdc-99373605c248-item-image-1536172640536.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-9c158f0f722bc4c36600.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-9c158f0f722bc4c36600.jpg",
+            "isPrimary": true
+          },
+          {
+            "id": "c814f3b3-679c-4f1d-ae73-6786303d37da",
+            "name": "Citrus Lemon Slush",
+            "centsPrice": 529,
+            "description": "(300 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "a36d6b76-770b-42cf-9b15-a0b19383a085",
+            "name": "Banana Coco Smoothie",
+            "centsPrice": 579,
+            "description": "(390 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "88c4ce10-9c4f-4d9f-ac31-2f51da92579d",
+            "name": "Mango Slush",
+            "centsPrice": 529,
+            "description": "(260 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/88c4ce10-9c4f-4d9f-ac31-2f51da92579d-item-image-1536172002617.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-c95f4696a3e0f03dd511.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-c95f4696a3e0f03dd511.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "ce1fb6fa-d359-444d-be86-1f70bebce24e",
+            "name": "Banana Strawberry Slush",
+            "centsPrice": 579,
+            "description": "(250 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/ce1fb6fa-d359-444d-be86-1f70bebce24e-item-image-1536171366983.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-7583ab5539417fe700d0.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-7583ab5539417fe700d0.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "25903735-993d-4eba-96f8-1bdc2e52155e",
+            "name": "Red Bean Matcha Smoothie",
+            "centsPrice": 579,
+            "description": "(430 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/25903735-993d-4eba-96f8-1bdc2e52155e-item-image-1536172294124.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-8420b309245f170d23be.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-8420b309245f170d23be.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "6e190e60-73fc-4253-b76f-3af345fd7476",
+            "name": "Banana Kiwi Slush",
+            "centsPrice": 579,
+            "description": "(410 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/6e190e60-73fc-4253-b76f-3af345fd7476-item-image-1536171322711.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-55701fa910552cff07e1.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-55701fa910552cff07e1.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "da964313-4f36-4519-88d4-1356cd1b46e3",
+            "name": "Oreo Coco Smoothie",
+            "centsPrice": 529,
+            "description": "(410 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/da964313-4f36-4519-88d4-1356cd1b46e3-item-image-1536172224686.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-a0acf108fcae3e95beea.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-a0acf108fcae3e95beea.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "1b2bf422-073a-4e76-ad22-e2c4227c14af",
+            "name": "Coconut Smoothie",
+            "centsPrice": 529,
+            "description": "(410 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/1b2bf422-073a-4e76-ad22-e2c4227c14af-item-image-1536172389058.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-10547878c1b942c6fa46.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-10547878c1b942c6fa46.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "ddc12efa-395a-4082-b8c1-0c15501c3c24",
+            "name": "Honeydew Smoothie",
+            "centsPrice": 529,
+            "description": "(410 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/ddc12efa-395a-4082-b8c1-0c15501c3c24-item-image-1536171723316.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-6a9b5055a2ba45cedfa9.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-6a9b5055a2ba45cedfa9.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "17422d7c-f7a0-4b86-a5a3-25f72cb76b7a",
+            "name": "Strawberry Slush",
+            "centsPrice": 579,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "b67b299e-624e-4cfd-b873-2ba261651b95",
+            "name": "Strawberry Mango Slush",
+            "centsPrice": 579,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "e27ce5f6-d149-4af1-8a07-cc6945530bf8",
+            "name": "Taro Coconut Smoothie",
+            "centsPrice": 529,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "b454b2e0-fd24-4d02-8823-1e99ccfb9f89",
+            "name": "Lychee Coconut Slush",
+            "centsPrice": 529,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          }
+        ],
+        "timeConstraint": {
+          "startHour": 0,
+          "startMinute": 0,
+          "endHour": 23,
+          "endMinute": 59
+        }
+      },
+      {
+        "id": "d783d79b-436a-4495-9624-d64ae14f5ea2",
+        "name": "Fresh Tea",
+        "description": "",
+        "menuItems": [
+          {
+            "id": "61356e27-8fab-4d64-899b-d6acc74e9961",
+            "name": "Osmanthus Oolong",
+            "centsPrice": 499,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "480ca225-5a60-4f6d-8109-10cc149d5c4c",
+            "name": "Earl Grey Black Tea",
+            "centsPrice": 499,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "db34071b-8edf-4519-9f28-614b3056c8d4",
+            "name": "Jasmine Green Tea",
+            "centsPrice": 499,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "6bc82c53-d2bf-4e67-84cd-bb72d2800ca1",
+            "name": "Japanese Roasted Rice Tea",
+            "centsPrice": 499,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          }
+        ],
+        "timeConstraint": {
+          "startHour": 0,
+          "startMinute": 0,
+          "endHour": 23,
+          "endMinute": 59
+        }
+      },
+      {
+        "id": "af98eeb9-8385-440c-b90f-e4e65c4bac74",
+        "name": "Fruity Tea",
+        "description": "",
+        "menuItems": [
+          {
+            "id": "3dd925dd-4e95-4258-b428-133bd7bc5387",
+            "name": "Fresh Lemon Green Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/3dd925dd-4e95-4258-b428-133bd7bc5387-item-image-1536171873820.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-1439351174688eb759e5.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-1439351174688eb759e5.jpg",
+            "isPrimary": true
+          },
+          {
+            "id": "469cd6c4-81a0-4e9d-9c7e-73d5c6fe3f49",
+            "name": "Winter Melon Lemon Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "dc82e391-b3c7-4f78-9ba8-7b5db0bf580f",
+            "name": "Green Apple Green Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/dc82e391-b3c7-4f78-9ba8-7b5db0bf580f-item-image-1536171649801.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-7e836b7eb2f0f1fb3338.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-7e836b7eb2f0f1fb3338.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "854785ef-443a-49d5-9ac4-ac07cee2f7bd",
+            "name": "Blueberry Black Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/854785ef-443a-49d5-9ac4-ac07cee2f7bd-item-image-1536171411406.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-0a0ca079b30c4f4f73b9.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-0a0ca079b30c4f4f73b9.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "61e25ccb-f5da-41c5-b9ec-f8c2aa6cdcbb",
+            "name": "Mango Green Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/61e25ccb-f5da-41c5-b9ec-f8c2aa6cdcbb-item-image-1536171908123.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-6f3f0b17b3f50e098cb7.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-6f3f0b17b3f50e098cb7.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "e975de48-be75-4f64-8571-cf85b95990f4",
+            "name": "Honey Passion Fruit Green Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/e975de48-be75-4f64-8571-cf85b95990f4-item-image-1536171795042.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-30d30043a0171a0c080e.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-30d30043a0171a0c080e.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "adfb5fa7-a5ea-47a2-ab05-67ef5f669234",
+            "name": "Signature Iced Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/adfb5fa7-a5ea-47a2-ab05-67ef5f669234-item-image-1536172468589.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-a5142ec697a6d6ed9ee4.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-a5142ec697a6d6ed9ee4.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "1aa822e7-d74e-4cf6-a4ec-9bcf94cc8d42",
+            "name": "Winter Melon Green Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "881f5393-26b8-495c-9b35-bc937618c4eb",
+            "name": "Lychee Aloe Green Tea",
+            "centsPrice": 479,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "b1b56d52-5ea8-410a-98bd-9678b6fb4d2a",
+            "name": "Peach Green Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "7e8bbf36-8c74-42f6-a8c4-e29237cceb89",
+            "name": "Honey Lemon Green Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "02e3f28c-4c06-4ed3-a639-8d9440b3f408",
+            "name": "Honey Green Tea",
+            "centsPrice": 429,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          }
+        ],
+        "timeConstraint": {
+          "startHour": 0,
+          "startMinute": 0,
+          "endHour": 23,
+          "endMinute": 59
+        }
+      },
+      {
+        "id": "23b74354-8d27-492f-9c51-aaaf20ab653b",
+        "name": "Fresh Juice and Milk",
+        "description": "Fresh juice and milk beverages are served in Boba bottles.",
+        "menuItems": [
+          {
+            "id": "f8d8cb6e-8981-4b4b-a984-dc23a96ab93a",
+            "name": "Mango Juice and Milk",
+            "centsPrice": 649,
+            "description": "(360 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/f8d8cb6e-8981-4b4b-a984-dc23a96ab93a-item-image-1536171954417.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-cf07f67fc632b94cbfc0.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-cf07f67fc632b94cbfc0.jpg",
+            "isPrimary": true
+          },
+          {
+            "id": "baf4cdc4-155b-435e-b5f6-a44b38e7c6bc",
+            "name": "Watermelon Juice",
+            "centsPrice": 599,
+            "description": "(220 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "e22e73cd-b96f-4b9e-8747-c9f608bd7d06",
+            "name": "Water Melon Juice and Milk",
+            "centsPrice": 599,
+            "description": "(240 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "8c0b5ed6-1dd5-4a13-b89a-8e86f37b184e",
+            "name": "Mango Juice",
+            "centsPrice": 649,
+            "description": "(340 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "b3f64b36-3a99-4e78-bfa5-05a0b5bc8cf4",
+            "name": "Strawberry Juice",
+            "centsPrice": 649,
+            "description": "(340 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "8351def2-d5ff-482a-b0d3-e309f091c257",
+            "name": "Strawberry Juice and Milk",
+            "centsPrice": 649,
+            "description": "(360 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/8351def2-d5ff-482a-b0d3-e309f091c257-item-image-1536172547236.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-8d43a8ee3e3e11f055d6.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-8d43a8ee3e3e11f055d6.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "77cb2d4e-30a3-4c1a-b316-9788d969766e",
+            "name": "Banana Juice and Milk",
+            "centsPrice": 599,
+            "description": "(340 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/77cb2d4e-30a3-4c1a-b316-9788d969766e-item-image-1536171262642.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-e516fd080e709dbf8ee6.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-e516fd080e709dbf8ee6.jpg",
+            "isPrimary": false
+          },
+          {
+            "id": "45c8153d-d31f-418d-aed8-95628ce691c4",
+            "name": "Lemon Juice",
+            "centsPrice": 599,
+            "description": "(210 Cals)",
+            "available": true,
+            "isPrimary": false
+          }
+        ],
+        "timeConstraint": {
+          "startHour": 0,
+          "startMinute": 0,
+          "endHour": 23,
+          "endMinute": 59
+        }
+      },
+      {
+        "id": "964a052e-3092-4bd3-8383-0969aabbd227",
+        "name": "Mousse Latte",
+        "description": "Mousse lattes are served in Boba bottles.",
+        "menuItems": [
+          {
+            "id": "0b04b1b8-c91b-475c-b9ba-083aa023623b",
+            "name": "Mocha Latte",
+            "centsPrice": 549,
+            "description": "(330 Cals)",
+            "available": true,
+            "imageUrl": "https://static.skipthedishes.com/0b04b1b8-c91b-475c-b9ba-083aa023623b-item-image-1536172134032.",
+            "mediumImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/medium-12eba1862a5cd158af75.jpg",
+            "smallImageUrl": "https://restaurants-static.skipthedishes.com/images/resized/small-12eba1862a5cd158af75.jpg",
+            "isPrimary": true
+          },
+          {
+            "id": "b6a8a2fd-9b99-4a68-99a9-2ed28ce0338f",
+            "name": "Earl Grey Latte",
+            "centsPrice": 549,
+            "description": "(400 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "5a943ddb-16ec-40d2-85c4-edb99fb2f4e5",
+            "name": "Matcha Latte",
+            "centsPrice": 549,
+            "description": "(430 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "1a6a8a70-5826-4a75-ae50-e8475aa91660",
+            "name": "Winter Melon Latte",
+            "centsPrice": 549,
+            "description": "(450 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "9f5d63b2-3ac0-433d-8c71-39a6ad11f8e3",
+            "name": "Taro Latte",
+            "centsPrice": 549,
+            "description": "(430 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "c3ab0731-1e1a-49a1-a2c4-58ce7ecd30ef",
+            "name": "Mousse Coco Latte",
+            "centsPrice": 549,
+            "description": "(500 Cals)",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "b7ec50ce-7d76-422a-9716-bfb5ad00fe84",
+            "name": "Red Bean Matcha Latte",
+            "centsPrice": 579,
+            "description": "(280 Cals)",
+            "available": true,
+            "isPrimary": false
+          }
+        ],
+        "timeConstraint": {
+          "startHour": 0,
+          "startMinute": 0,
+          "endHour": 23,
+          "endMinute": 59
+        }
+      },
+      {
+        "id": "eb78263c-1ecd-45fb-ba27-ee034e04ef27",
+        "name": "Bubble Waffle",
+        "description": "",
+        "menuItems": [
+          {
+            "id": "f0523e6b-1b28-4ba4-83db-6ca7bcdf1582",
+            "name": "Bubble Waffle",
+            "centsPrice": 350,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          }
+        ]
+      },
+      {
+        "id": "648fcb01-c3d6-45ae-ac64-33563e7db142",
+        "name": "La Rocca Cakes",
+        "description": "",
+        "menuItems": [
+          {
+            "id": "ec91c0af-4145-46f0-b260-8eb8d9e35a12",
+            "name": "Red Velvet Cake",
+            "centsPrice": 499,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "ddd4e172-df0b-4d4b-a6e2-c4b095ff9bb2",
+            "name": "Chocolate Fudge Cake",
+            "centsPrice": 499,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "db736d9c-5852-4c9d-a6a9-ecfeb052fee2",
+            "name": "Cookies and Cream Cheesecake",
+            "centsPrice": 499,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "3b45ac2a-deed-40b8-925c-64bfae8cd63f",
+            "name": "White Chocolate Raspberry Truffle Cake",
+            "centsPrice": 479,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "1535ef3c-bf6b-4cad-9a63-563565280f0f",
+            "name": "Truffle Royale",
+            "centsPrice": 479,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          },
+          {
+            "id": "12f1d0d3-031d-467e-be92-a4726aede081",
+            "name": "Brownie Square",
+            "centsPrice": 399,
+            "description": "",
+            "available": true,
+            "isPrimary": false
+          }
+        ]
+      }
+    ],
+    "timeZone": "America/Toronto"
+  },
+  "hasMenuPhoto": true,
+  "isNew": false
+}

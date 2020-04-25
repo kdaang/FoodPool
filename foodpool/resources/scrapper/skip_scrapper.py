@@ -15,18 +15,26 @@ class SkipScrapper:
         r = requests.get(url, headers=headers)
         self.output_to_json_file(r.json(), dir, file_name)
 
+    # def scrap_restaurant_menu(self):
+    #     url = "https://api-skipthedishes.skipthedishes.com/v1/restaurants/e7b198c0-bef8-4376-8bcb-e7036232c93b/menuitems"
+    #     self.scrap_skip(url, "scrapped_menu_data", "skip_mcdonalds_menu")
+    #
+    # def scrap_restaurant(self):
+    #     url = "https://api-skipthedishes.skipthedishes.com/v1/restaurants/e7b198c0-bef8-4376-8bcb-e7036232c93b"
+    #     self.scrap_skip(url, "scrapped_restaurant_data", "skip_mcdonalds_restaurant")
+
     def scrap_restaurant_menu(self):
-        url = "https://api-skipthedishes.skipthedishes.com/v1/restaurants/e7b198c0-bef8-4376-8bcb-e7036232c93b/menuitems"
-        self.scrap_skip(url, "scrapped_menu_data", "mcdonalds_menu_skip")
+        url = "https://api-skipthedishes.skipthedishes.com/v1/restaurants/45ba7da6-ac97-442f-b3ce-328cd41ec3c0/menuitems"
+        self.scrap_skip(url, "scrapped_menu_data", "skip_bobaboy_menu")
 
     def scrap_restaurant(self):
-        url = "https://api-skipthedishes.skipthedishes.com/v1/restaurants/e7b198c0-bef8-4376-8bcb-e7036232c93b"
-        self.scrap_skip(url, "scrapped_restaurant_data", "mcdonalds_restaurant_skip")
+        url = "https://api-skipthedishes.skipthedishes.com/v1/restaurants/45ba7da6-ac97-442f-b3ce-328cd41ec3c0"
+        self.scrap_skip(url, "scrapped_restaurant_data", "skip_bobaboy_restaurant")
 
 
 def main():
     skip = SkipScrapper()
-    # skip.scrap_restaurant_menu()
+    skip.scrap_restaurant_menu()
     skip.scrap_restaurant()
 
 
