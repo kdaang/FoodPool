@@ -16,9 +16,9 @@ class UserTypes:
     ADMIN = 'ADMIN'
 
     choices = [
-        (GRABBER, 'GRABBER'),
-        (ORDERER, 'ORDERER'),
-        (ADMIN, 'ADMIN')
+        (0, 'GRABBER'),
+        (1, 'ORDERER'),
+        (2, 'ADMIN')
     ]
 
 
