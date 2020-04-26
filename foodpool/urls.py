@@ -20,5 +20,6 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
     url(r'^api/v1/', include('foodpool.v1.authentication.urls', namespace='authentication')),
-    url(r'^api/v1/', include('foodpool.v1.users.urls', namespace='users'))
+    url(r'^api/v1/', include('foodpool.v1.users.urls', namespace='users')),
+    url(r'^api/v1/', include('foodpool.v1.menus.urls', namespace='menus'))
 ]

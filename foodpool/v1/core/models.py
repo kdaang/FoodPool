@@ -94,7 +94,7 @@ class CanadaAddress:
 
 class CanadaAddressModel(models.Model):
     address_1 = models.CharField(max_length=254)
-    address_2 = models.CharField(max_length=254)
+    address_2 = models.CharField(max_length=254, null=True, blank=True)
 
     latitude = models.FloatField()
     longitude = models.FloatField()

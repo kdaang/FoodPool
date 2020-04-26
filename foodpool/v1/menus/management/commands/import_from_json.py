@@ -129,7 +129,7 @@ class Command(BaseCommand):
             except Exception as ex:
                 self.handle_exception(ex, "RestaurantLocation")
 
-    def import_restaurant_location(self, location, hours, restaurant):
+    def import_restaurant_location(self, location, hours, restaurant, menu):
         if not location:
             return
 
@@ -137,6 +137,7 @@ class Command(BaseCommand):
         try:
             restaurant_location, created = RestaurantLocation.objects.get_or_create(
                 restaurant=restaurant,
+                menu=menu,
                 address_1=location.get("address", None),
                 latitude=location.get("latitude", None),
                 longitude=location.get("longitude", None),
@@ -171,14 +172,13 @@ class Command(BaseCommand):
                 try:
                     restaurant, created = Restaurant.objects.get_or_create(
                         name=data.get("name", None),
-                        shortName=data.get("shortName", None),
-                        menu=menu
+                        short_name=data.get("shortName", None)
                     )
 
                 except Exception as ex:
                     self.handle_exception(ex, "Restaurant")
 
-                self.import_restaurant_location(data.get("location", None), data.get("hours", None),  restaurant)
+                self.import_restaurant_location(data.get("location", None), data.get("hours", None),  restaurant, menu)
 
                 self.import_menu_data(menu, "_".join(file_name.split("_")[:-1]) + "_menu.json")
 

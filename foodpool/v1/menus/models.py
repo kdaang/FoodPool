@@ -4,7 +4,6 @@ from foodpool.v1.core.models import TimestampedModel, CanadaAddressModel, Availa
 
 class MenuManager(models.Manager):
     def create(self, **required_fields):
-
         menu = self.model(**required_fields)
         menu.save()
 
@@ -68,14 +67,14 @@ class MenuOptionChoices(TimestampedModel):
 
 class Restaurant(TimestampedModel):
     name = models.TextField()
-    shortName = models.TextField()
+    short_name = models.TextField()
     description = models.TextField(null=True)
-    menu = models.ForeignKey(Menu, on_delete=models.PROTECT)
 
 
 class RestaurantLocation(CanadaAddressModel, TimestampedModel):
-    restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE)
+    restaurant = models.ForeignKey(Restaurant, on_delete=models.CASCADE, related_name='location')
     is_open = models.BooleanField(default=False)
+    menu = models.ForeignKey(Menu, on_delete=models.PROTECT, related_name='location')
 
 
 class RestaurantLocationAvailability(AvailabilityModel):
